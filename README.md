@@ -15,10 +15,9 @@ usage: seq_trimmer.py [-h] [-hd HEAD] [-t TAIL]
 seq_trimmer.py: error: the following arguments are required: -i/--input
 
 Example FastQC reports on test fastq file are included in the repository, it was processed with command:
-'''
-bash
-time python3.6 seq_trimmer.py -t 5 -hd 5 -q 35 4 -i test_classwork3.fastq -o test_file3_all.fastq
-'''
+```bash
+python3.6 seq_trimmer.py -t 5 -hd 5 -q 35 4 -i test_classwork3.fastq -o test_file3_all.fastq
+```
 
 
 
