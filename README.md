@@ -18,7 +18,7 @@ Example FastQC reports on test fastq file are included in the repository, it was
 ```bash
 python3.6 seq_trimmer.py -t 5 -hd 5 -q 35 4 -i test_classwork3.fastq -o test_file3_all.fastq
 ```
-
+File with "all" suffix is processed file.
 
 
 
